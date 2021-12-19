@@ -28,7 +28,7 @@ ALLOWED_HOSTS = ['superepicguysuper.pythonanywhere.com', '127.0.0.1']
 
 # Application definition
 
-AUTH_USER_MODEL = 'account.Account'
+# AUTH_USER_MODEL = 'account.Account'
 
 DJANGO_APPS = [
     'django.contrib.admin',
@@ -55,10 +55,11 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     'account',
     'subject',
-    'attendance',
+    # 'attendance',
     'api',
-    'billboard',
+    # 'billboard',
     'announcement',
+    'location'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

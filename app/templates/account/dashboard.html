@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+  Dashboard
+{% endblock %}
+
+{% block content %}
+  <div class="container-fluid">
+    <h3 class="mt-4"> Dashboard</h3>
+    <div class="card mt-4">
+      <div class="card-header">
+        <h4>Dashboard </h4>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  $(document).ready( function () {
+    $('#dataTable').DataTable();
+  } );
+
+</script>
+{% endblock %}
+

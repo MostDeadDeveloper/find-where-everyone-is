@@ -28,7 +28,7 @@ ALLOWED_HOSTS = ['superepicguysuper.pythonanywhere.com', '127.0.0.1']
 
 # Application definition
 
-# AUTH_USER_MODEL = 'account.Account'
+AUTH_USER_MODEL = 'account.Account'
 
 DJANGO_APPS = [
     'django.contrib.admin',
